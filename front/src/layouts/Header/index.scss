@@ -1,0 +1,55 @@
+header{
+  #navHeader{
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    margin: 10px auto;
+    align-items: center;
+    height: 10vh;
+    background-color: white;
+    .icon{
+      display: flex;
+      h2{
+        font-size: 40px;
+        line-height: 48px;
+        font-weight: 900;
+      }
+      span{
+        color: #f16821;
+        font-size: 80px;
+        line-height: 20px;
+      }
+    }
+    .navBtns{
+      ul{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+      }
+    }
+  }
+}
+
+
+
+.pendingNavLink{
+  color: black;
+}
+
+.activeNavLink{
+  color: orange;
+}
+
+.responsiveMenu{
+  display: none;
+}
+
+@media screen and (max-width:900px){
+  .navBtns{
+    display: none;
+  }
+
+  .responsiveMenu{
+    display: inline;
+  }
+}

@@ -1,0 +1,68 @@
+#Hero{
+    background-image: url('https://preview.colorlib.com/theme/selling/images/hero_2.jpg.webp');
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+min-height: 100vh;
+// background: rgba($color: #000000, $alpha: 0.2);
+position: relative;
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: rgba($color: black, $alpha: 0.4);
+  z-index: 1;
+}
+.heroTitle{
+width: 30%;
+z-index: 50;
+  position: absolute;
+  color: white;
+  left: 10%;
+  top: 35%;
+  display: flex;
+  flex-direction: column;
+  h1{
+    font-size: 52px;
+  }
+  gap: 20px;
+  .heroButtons{
+    display: flex;
+    gap: 20px;
+    button{
+      width: 100px;
+      height: 40px;
+      border: none;
+      font-size: 12px;
+      outline: none;
+      transition: .2s linear;
+
+    }
+    .ShopNow{
+      border: 1px solid white;
+      color:white;
+      background-color: transparent;
+      &:hover{
+        color:black;
+        background-color: white;
+      }
+    }
+    .clubMembership{
+      width: 140px;
+      border: 1px solid black;
+      background-color: white;
+      &:hover{
+        border: 1px solid white;
+
+        color:white;
+        background-color: transparent;
+      }
+    }
+  }
+  
+}
+  }

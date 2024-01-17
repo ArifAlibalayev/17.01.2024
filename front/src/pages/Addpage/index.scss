@@ -1,0 +1,38 @@
+#addPageContainer{
+  max-width: 60%;
+  margin: 50px auto;
+  .formikForm{
+    input{
+      padding: 10px 20px;
+    }
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    button{
+      width: 100px;
+      height: 40px;
+      border: none;
+      color: white;
+      outline: none;
+      background-color: #f16821;
+      transition: .2s linear;
+      &:hover{
+        background-color: #f09161;
+        color: rgb(39, 38, 38);
+      }
+    }
+  }
+}
+
+table{
+  margin: 40px 0;
+  th{
+    padding: 20px;
+    border: 1px solid black;
+  }
+  td{
+    padding: 20px;
+    border: 1px solid black;
+  }
+  border: 1px solid black;
+}
